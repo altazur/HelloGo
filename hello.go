@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import ("fmt"
+	"github.com/altazur/hello/stringutils"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(stringutils.ReverseRune("oG, olleH!"))
 }
